@@ -1,0 +1,33 @@
+.access-container {
+    width:30%;
+    margin-left:35%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+  
+  .input-pttp {
+    border:none;
+    border-bottom: 1px solid grey;
+    width:80%;
+  }
+
+  .form-control {
+	border-radius: 0;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+    box-shadow: none;
+    width:80%;
+}
+
+.form-control:focus {
+	box-shadow: none;
+	border-color: #5e9bfc;
+}
+  
+  .access-btn {
+    background-color:#0E7CFF;
+    color:white;
+    border:none;
+  }
